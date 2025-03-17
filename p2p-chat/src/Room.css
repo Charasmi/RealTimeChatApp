@@ -1,0 +1,68 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .home-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .room-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .room-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .btn {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .create-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .create-btn:hover {
+    background: #0056b3;
+  }
+  
+  .join-btn {
+    background: #28a745;
+    color: white;
+  }
+  
+  .join-btn:hover {
+    background: #218838;
+  }
+  
